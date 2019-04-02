@@ -147,6 +147,8 @@ footer{
   font-family: 'Gotham';
   letter-spacing: 1px;
   font-size: 14px;
+  display: flex;
+  
 }
 
 .since::after{
@@ -368,6 +370,13 @@ footer{
 
 .social ul li img{
   width: 25px;
+
+}
+
+hr{
+  height: 100px !important;
+  border: solid 1px !important;
+  margin: 0 !important;
 }
 
 
