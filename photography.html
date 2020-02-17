@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Artgood | Alexandra Baldoceda | Portafolio</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.css">
+
+    <script type="text/javascript" src="js/jquery-3.3.0.min.js"></script>
+
+
+  </head>
+  <body>
+
+    <section class="main">
+
+        <nav>
+          <ul>
+            <li><a href="/graphic-design.html">Graphic Design</a></li>
+            <li><a href="/photography.html" class="active">Photography</a></li>
+            <li><a href="/about.html" >About</a></li>
+          </ul>
+        </nav>
+
+        <div class="carousel">
+          <div class="carousel___item"> <img src="media/photography/1.jpg" alt=""> </div>
+          <div class="carousel___item"> <img src="media/photography/2.jpg" alt=""> </div>
+          <div class="carousel___item"> <img src="media/photography/3.jpg" alt=""> </div>
+        </div>
+
+        <footer>
+
+          <span>Alexandra Baldoceda Copyright 2019. All Rights Reserved</span>
+
+        </footer>
+
+    </section>
+
+  </body>
+
+  <script type="text/javascript" src="js/slick.js"> </script>
+
+  <script type="text/javascript">
+
+        $('.carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+      });
+
+  </script>
+</html>
