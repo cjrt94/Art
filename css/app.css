@@ -631,8 +631,8 @@ hr {
 
 .pre-footer__title {
     color: #826952;
-    font-weight: 500;
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 .education__title {
