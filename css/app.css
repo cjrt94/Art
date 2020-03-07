@@ -87,13 +87,13 @@ nav ul li {
 .nav__profile {
     position: absolute;
     left: 0;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
 }
 
 .nav__data {
     position: absolute;
     left: 200px;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
 }
 
 .nav__cv {
@@ -209,7 +209,7 @@ footer {
 .active {
     border-bottom-style: solid;
     border-bottom-width: 3px;
-    border-bottom-color: red;
+    border-bottom-color: #826952;
 }
 
 .link-project {
@@ -276,7 +276,7 @@ footer {
 
 .work-description-client {
     font-weight: 300;
-    font-size: .6rem;
+    font-size: .9rem;
     margin-top: 5px;
 }
 
@@ -310,7 +310,7 @@ footer {
 
 .work-spec {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 80%;
 }
 
 .work-spec-col-1 {
@@ -331,7 +331,7 @@ footer {
 .work-spec-col-2 {
     margin-top: 20px;
     border-top-style: solid;
-    border-top-width: 3px;
+    border-top-width: 1px;
     border-top-color: white;
 }
 
